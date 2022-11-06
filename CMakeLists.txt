@@ -1,0 +1,4 @@
+project(ROOT)
+cmake_minimum_required(VERSION 3.24)
+include_directories(./src/arch/x86/kernel)
+set(CMAKE_C_STANDARD 11)

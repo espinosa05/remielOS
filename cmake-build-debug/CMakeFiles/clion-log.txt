@@ -1,0 +1,42 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=make -DCMAKE_C_COMPILER=/usr/bin/x86_64-elf-gcc -G "CodeBlocks - Unix Makefiles" -S /home/espi/Documents/ROOT -B /home/espi/Documents/ROOT/cmake-build-debug
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: /usr/bin/x86_64-elf-gcc
+-- Check for working C compiler: /usr/bin/x86_64-elf-gcc - broken
+CMake Error at /usr/share/cmake/Modules/CMakeTestCCompiler.cmake:69 (message):
+  The C compiler
+
+    "/usr/bin/x86_64-elf-gcc"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /home/espi/Documents/ROOT/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):make -f Makefile cmTC_0ae55/fast && make  -f CMakeFiles/cmTC_0ae55.dir/build.make CMakeFiles/cmTC_0ae55.dir/build
+    make[1]: Entering directory '/home/espi/Documents/ROOT/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Building C object CMakeFiles/cmTC_0ae55.dir/testCCompiler.c.o
+    /usr/bin/x86_64-elf-gcc   -fdiagnostics-color=always -o CMakeFiles/cmTC_0ae55.dir/testCCompiler.c.o -c /home/espi/Documents/ROOT/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+    Linking C executable cmTC_0ae55
+    /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ae55.dir/link.txt --verbose=1
+    /usr/bin/x86_64-elf-gcc -rdynamic CMakeFiles/cmTC_0ae55.dir/testCCompiler.c.o -o cmTC_0ae55 
+    x86_64-elf-gcc: error: unrecognized command-line option '-rdynamic'
+    make[1]: *** [CMakeFiles/cmTC_0ae55.dir/build.make:99: cmTC_0ae55] Error 1
+    make[1]: Leaving directory '/home/espi/Documents/ROOT/cmake-build-debug/CMakeFiles/CMakeTmp'
+    make: *** [Makefile:127: cmTC_0ae55/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:1 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/espi/Documents/ROOT/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/home/espi/Documents/ROOT/cmake-build-debug/CMakeFiles/CMakeError.log".
