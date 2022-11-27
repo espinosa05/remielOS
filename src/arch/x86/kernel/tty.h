@@ -38,7 +38,6 @@ struct tty_ctx
     void *fg_color;
     void *bg_color;
 };
-
 enum text_driver_indeces
 {
     VGA_DEFAULT_DRIVER,

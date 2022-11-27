@@ -38,8 +38,6 @@
 #define CPUID_VENDOR_BHYVE         "bhyve bhyve "
 #define CPUID_VENDOR_QNX           " QNXQVMBSQG "
 
-
-
 /* Eflags bits  */
 
 #define CF_BIT  (1)
@@ -48,7 +46,6 @@
 #define ZF_BIT  (1 << 6)
 #define SF_BIT  (1 << 7)
 #define OF_BIT  (1 << 8)
-
 
 #define clc()   asm("clc")
 #define cld()   asm("cld")
@@ -60,13 +57,12 @@
 
 #define IS_FLAG_SET(flag) !!(flag & get_flags())
 
-extern uint32_t get_flags();
+extern u32 get_flags();
 
-extern uint32_t read_cr4();
-extern void write_cr4(uint32_t cr4);
-extern uint32_t rdmsr(uint32_t base_address, uint32_t edx, uint32_t eax);
-extern void wrmsr(uint32_t base_address, uint32_t low_value, uint32_t high_value);
-
+extern u32 read_cr4();
+extern void write_cr4(u32 cr4);
+extern u32 rdmsr(u32 base_address, u32 edx, u32 eax);
+extern void wrmsr(u32 base_address, u32 low_value, u32 high_value);
 
 static void cpuid(int function_number, struct gp_registers32 *regs32);
 void get_cpu_vendor_string(struct gp_registers32 regs32, char *buffer);

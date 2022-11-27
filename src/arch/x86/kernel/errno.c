@@ -1,9 +1,14 @@
 #include <remiel/errno.h>
 
 
-err_t errno;
+static err_t errno;
 
-void set_remiel_errno(err_t errnoval)
+err_t __get_remiel_errno()
+{
+  return errno;
+}
+
+void __set_remiel_internal_errno(err_t errnoval)
 {
   errno = errnoval;
 }

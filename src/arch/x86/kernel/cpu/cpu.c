@@ -1,4 +1,4 @@
-#include "../cpu.h"
+#include <cpu/cpu.h>
 #include <remiel/types.h>
 
 #define EFLAGS_ID_BIT (1 << 21)

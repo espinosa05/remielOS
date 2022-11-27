@@ -1,6 +1,6 @@
-The system is: Linux - 6.0.8-arch1-1 - x86_64
+The system is: Linux - 6.0.5-arch1-1 - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /usr/bin/x86_64-elf-gcc 
+Compiler: /home/espi/x86_64-elf-tools-linux/bin/x86_64-elf-gcc 
 Build flags: 
 Id flags: -c 
 
@@ -10,23 +10,10 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
 
-The C compiler identification is GNU, found in "/home/espi/Documents/ROOT/cmake-build-debug/CMakeFiles/3.24.3/CompilerIdC/CMakeCCompilerId.o"
+The C compiler identification is GNU, found in "/home/espi/CLionProjects/remielOS/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.o"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /usr/bin/c++ 
-Build flags: 
-Id flags:  
-
-The output was:
-0
-
-
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
-
-The CXX compiler identification is GNU, found in "/home/espi/Documents/ROOT/cmake-build-debug/CMakeFiles/3.24.3/CompilerIdCXX/a.out"
-
-Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /usr/bin/x86_64-elf-gcc 
+Compiler: /home/espi/x86_64-elf-tools-linux/bin/x86_64-elf-c++ 
 Build flags: 
 Id flags: -c 
 
@@ -34,46 +21,7 @@ The output was:
 0
 
 
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
 
-The C compiler identification is GNU, found in "/home/espi/Documents/ROOT/cmake-build-debug/CMakeFiles/3.24.3/CompilerIdC/CMakeCCompilerId.o"
-
-Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /usr/bin/c++ 
-Build flags: 
-Id flags:  
-
-The output was:
-0
-
-
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
-
-The CXX compiler identification is GNU, found in "/home/espi/Documents/ROOT/cmake-build-debug/CMakeFiles/3.24.3/CompilerIdCXX/a.out"
-
-Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /usr/bin/x86_64-elf-gcc 
-Build flags: 
-Id flags: -c 
-
-The output was:
-0
-
-
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
-
-The C compiler identification is GNU, found in "/home/espi/Documents/ROOT/cmake-build-debug/CMakeFiles/3.24.3/CompilerIdC/CMakeCCompilerId.o"
-
-Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /usr/bin/c++ 
-Build flags: 
-Id flags:  
-
-The output was:
-0
-
-
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
-
-The CXX compiler identification is GNU, found in "/home/espi/Documents/ROOT/cmake-build-debug/CMakeFiles/3.24.3/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/espi/CLionProjects/remielOS/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.o"
 

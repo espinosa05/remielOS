@@ -1,6 +1,6 @@
 #include "io.h"
 
-void outb(uint16_t port, uint8_t byte)
+void outb(u16 port, u8 byte)
 {
   asm ("outb %0, %1" :: "a"(byte), "Nd"(port));
 }
